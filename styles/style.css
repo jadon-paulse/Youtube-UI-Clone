@@ -399,7 +399,7 @@ body {
         display: none;
     }
 
-    .menuBar .icons #no-icon{
+    .menuBar .icons .no-icon{
         display: none !important;
     }
 
