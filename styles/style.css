@@ -406,4 +406,27 @@ body {
     .menuBar #menu {
         display: none;
     }
+
+    .videos .videosGrid {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-around; */
+        /* flex-wrap: wrap; */
+    }
+
+    .videos {
+        background: var(--color-bg);
+        width: 100%;
+        height: 100%;
+        padding: 15px 25px;
+        border-top: 1px solid #ddd;
+        overflow-y: scroll;  
+    }
+
+    .videos .videosGrid .video {
+        width: 20em;
+        margin-right: 10px;
+        margin-bottom: 30px;
+        
+    }
   }
