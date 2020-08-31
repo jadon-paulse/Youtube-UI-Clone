@@ -337,15 +337,15 @@ body {
     
     .genre .movies{
         margin-top: 5%;
-        margin-left: 20%;
+        margin-left: 2%;
         text-align: center;
     }
     .trending-videos {
         background: var(--color-bg);
         height: 78vh;
         width: 87vw;
-        margin-left: -70%;
-        /* padding-top: 25px; */
+        margin-left: -80%;
+        padding: 2em;
         /* padding-bottom: 25px; */
         border-top: 1px solid #ddd;
         overflow-y: scroll; 
@@ -359,10 +359,16 @@ body {
     }
     
     .trend-img img{
-        height: 100px;
-        width: 100px;
+        padding: 10px;
+        height: 100%;
+        width: 100%;
     }
     
+    .trend-title{
+        /* display: flex;
+        flex-direction: column; */
+    }
+
     .trend-title a{
         text-decoration: none;
         color: rgb(96, 96, 96);
