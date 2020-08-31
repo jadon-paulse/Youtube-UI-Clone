@@ -369,23 +369,41 @@ body {
     }
 
     .categories {
-        height: 100%;
+        height: 20%;
         width: 100px;
         background-color: white;
         overflow-y: scroll;
+        display:none;
     }
     
     .mainBody .categories .categoriesSection{
         width: 100%;
         display: flex;
+        flex-direction: column;
+        /* margin-bottom: 15px; */
+        /* margin-top: 35em; */
+        position: absolute; 
+        bottom: 0; 
         flex-direction: row;
-        margin-bottom: 15px;
-        margin-top: 35em;
+        display:none;
     }
     
     .mainBody .categories .categoriesSection .category {
         display: flex;
         align-items: center;
         padding: 12px 25px;
+        display:none;
+    }
+
+    .menuBar .search input {
+        display: none;
+    }
+
+    .menuBar .icons #no-icon{
+        display: none !important;
+    }
+
+    .menuBar #menu {
+        display: none;
     }
   }
