@@ -435,4 +435,47 @@ body {
         margin-bottom: 30px;
         
     }
+
+    /* watchVideo */
+    iframe{
+        width: 100%; 
+        height: 40%;
+    }
+
+    .video-link {
+        /* For testing */
+        padding-left: 5px;
+        width: 370px;
+    }
+
+    .video-container{
+        display: grid;
+        grid-template-columns: auto auto;
+        /* margin-left: 30%; */
+        /* grid-column-gap: 2%; */
+    }
+    
+    .up-next img{
+        height: 60px;
+        width: 60px;
+    }
+    
+    
+    .next{
+        margin-left: 20em;
+        display: grid;
+        grid: auto auto;
+    }
+    
+    .likes{
+        margin-left: 50em;
+    }
+    
+    #down{
+        padding-left: 2em;
+    }
+    
+    .video-info{
+        margin-left: 3em;
+    }
   }
