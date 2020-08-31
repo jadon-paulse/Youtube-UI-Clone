@@ -289,3 +289,103 @@ body {
     height: 60px;
     width: 60px;
 }
+
+
+.next{
+    margin-left: 20em;
+    display: grid;
+    grid: auto auto;
+}
+
+.likes{
+    margin-left: 50em;
+}
+
+#down{
+    padding-left: 2em;
+}
+
+.video-info{
+    margin-left: 3em;
+}
+
+.video-link {
+    /* For testing */
+    padding-left: 50px;
+    width: 600px;
+}
+
+@media all and (max-width: 1361px){
+    /* For mobile phones: */
+    .genre .music{
+        margin-left: 5%;
+        margin-top: 5%;
+        text-align: center;
+    }
+    
+    .genre .gaming{
+        margin-top: 5%;
+        margin-left: 2%;
+        text-align: center;
+    }
+    
+    .genre .news{
+        margin-top: 5%;
+        margin-left: 2%;
+        text-align: center;
+    }
+    
+    .genre .movies{
+        margin-top: 5%;
+        margin-left: 20%;
+        text-align: center;
+    }
+    .trending-videos {
+        background: var(--color-bg);
+        height: 78vh;
+        width: 87vw;
+        margin-left: -70%;
+        /* padding-top: 25px; */
+        /* padding-bottom: 25px; */
+        border-top: 1px solid #ddd;
+        overflow-y: scroll; 
+        margin-top: 39%;
+        /* display: flex; */
+        flex-direction: column;
+    }
+    
+    .trend{
+        display: flex;
+    }
+    
+    .trend-img img{
+        height: 100px;
+        width: 100px;
+    }
+    
+    .trend-title a{
+        text-decoration: none;
+        color: rgb(96, 96, 96);
+    }
+
+    .categories {
+        height: 100%;
+        width: 100px;
+        background-color: white;
+        overflow-y: scroll;
+    }
+    
+    .mainBody .categories .categoriesSection{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 15px;
+        margin-top: 35em;
+    }
+    
+    .mainBody .categories .categoriesSection .category {
+        display: flex;
+        align-items: center;
+        padding: 12px 25px;
+    }
+  }

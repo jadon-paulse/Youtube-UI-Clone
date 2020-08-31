@@ -5,14 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Video</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/comments.css">
 </head>
 <body>
     <div class="menuBar">
         <div class="logo">
             <i class="material-icons">menu</i>
-            <img src="https://www.youtube.com/about/static/svgs/icons/brand-resources/YouTube-logo-full_color_light.svg?cache=72a5d9c"
-                alt="">
+                <a href="index.html"><img src="https://www.youtube.com/about/static/svgs/icons/brand-resources/YouTube-logo-full_color_light.svg?cache=72a5d9c"
+                    alt=""></a>
         </div>
         <div class="search">
             <form action="">
@@ -29,8 +30,7 @@
     </div>
     <div class="video-container">
         <div class="video-link">
-            0
-            <iframe width="1500" height="750"
+            <iframe width="1200" height="620"
             src="https://www.youtube.com/embed/ckSQJ-DKqnE?autoplay=1">
             </iframe>
         </div>
@@ -39,28 +39,119 @@
                 1
                 <img src="https://images.unsplash.com/photo-1542751371-adc38448a05e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" 
                 alt="">
+                <div class="next-title">
+                    <h3><a href="watchVideo.html">Gaming Tips</a></h3>
+                    <a href="">Games4You</a>
+                    <span>1000 views</span>
+                    <span>2 days ago</span>
+                </div>
             </div>
             <div class="next">
                 2
                 <img src="https://images.unsplash.com/photo-1542751371-adc38448a05e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" 
                 alt="">
+                <div class="next-title">
+                    <h3><a href="watchVideo.html">Gaming Tips</a></h3>
+                    <a href="">Games4You</a>
+                    <span>1000 views</span>
+                    <span>2 days ago</span>
+                </div>
             </div>
             <div class="next">
                 3
                 <img src="https://images.unsplash.com/photo-1542751371-adc38448a05e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" 
                 alt="">
+                <!-- <div class="next-details"> -->
+                    <!-- <div class="author">
+                        <img src="https://images.unsplash.com/photo-1518806118471-f28b20a1d79d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80"
+                            alt="">
+                    </div> -->
+                    <div class="next-title">
+                        <h3><a href="watchVideo.html">Gaming Tips</a></h3>
+                        <a href="">Games4You</a>
+                        <span>1000 views</span>
+                        <span>2 days ago</span>
+                    </div>
+                <!-- </div> -->
             </div>
             <div class="next">
                 4
                 <img src="https://images.unsplash.com/photo-1542751371-adc38448a05e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" 
                 alt="">
+                <div class="next-title">
+                    <h3><a href="watchVideo.html">Gaming Tips</a></h3>
+                    <a href="">Games4You</a>
+                    <span>1000 views</span>
+                    <span>2 days ago</span>
+                </div>
             </div>
             <div class="next">
                 5
                 <img src="https://images.unsplash.com/photo-1542751371-adc38448a05e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" 
                 alt="">
+                <div class="next-title">
+                    <h3><a href="watchVideo.html">Gaming Tips</a></h3>
+                    <a href="">Games4You</a>
+                    <span>1000 views</span>
+                    <span>2 days ago</span>
+                </div>
             </div>
         </div>
     </div>
+
+
+    <!-- video title -->
+    <div class="video-title">
+        <div class="video-info">
+            <h3>Warzone gaming Tips</h3>
+            <!-- <a href="">Games4You</a> -->
+            <span>1000 views</span>
+            <span>2 days ago</span>
+            <div class="likes">
+                <span class="material-icons">
+                    thumb_up
+                    </span>
+                    <span>100</span>
+                <span id="down" class="material-icons">
+                    thumb_down
+                    </span>
+                    <span>4</span>
+                <span id="down" class="material-icons">
+                    reply
+                </span>
+                <span>SHARE</span>
+                <span id="down" class="material-icons">
+                    playlist_add
+                </span>
+                <span>SAVE</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Comments -->
+    <nav role="navigation" class="nav">
+  
+        <a class="menu-toggle" href="#head-nav">
+          <span aria-hidden="true" class="icon-menu"></span><span class="menu-toggle-text"></span>
+        </a>
+          
+        <ul id="main-menu" class="top-nav menu clearfix">
+          <li class="menu-item">
+            <a><i class="material-icons">account_circle</i> Comment </a>
+          </li>
+          <li class="menu-item">
+            <a><i class="material-icons">account_circle</i> Comment </a>
+          </li>
+          <li class="menu-item">
+            <a><i class="material-icons">account_circle</i> Comment </a>
+          </li>
+          <li class="menu-item">
+            <a><i class="material-icons">account_circle</i> Comment </a>
+          </li>
+        </ul>
+
+      </nav>
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="js/comments.js"></script>
 </body>
 </html>
