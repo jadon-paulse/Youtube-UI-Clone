@@ -4,6 +4,8 @@ Youtube UI clone for [Zaio](https://www.zaio.io/learn)
 
 Deployed version of [Clone](https://youtube-ui.netlify.app/)
 
+**Youtube has followed these Good UI & UX design principles**
+
 - Youtube has everything readily accessible for the user.
 
 - Youtube's menu, search bar and videos are always consistent so the user is never confused from what is going on when they enter another page.
